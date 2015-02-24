@@ -3,6 +3,15 @@
 <head>
         <meta charset="UTF-8">
         <title>LearnMixer</title>
+ <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script>
+  $(function(){
+    $("button").click(function(){
+      $("h1").slideUp()
+    });
+  });
+  </script>
+
 <div  style="background-color: #99ccff">
         <h1>Learn Mixer</h1>
 </div>
@@ -14,8 +23,14 @@
 </div>
 </head>
 <body>
+<div  style="background-color: red; color: white;">
+<h1>
+The course is extremely hard...
+</h1>
+</div>
+<button>Ignore</button>
+<br><br>
 <div>
-        <h1>Math Mammoth</h1>
         <label>Description:</label>
             <input type="text" name=""></input>
             <br>
